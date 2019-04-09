@@ -44,12 +44,15 @@
   <ItemGroup>
     <Reference Include="Microsoft.OData.Client">
       <HintPath>..\..\lib\Microsoft.OData.Client.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Commerce.Engine.Connect">
       <HintPath>..\..\lib\Sitecore.Commerce.Engine.Connect.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Commerce.ServiceProxy">
       <HintPath>..\..\lib\Sitecore.Commerce.ServiceProxy.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SC.Sitecore.ContentSearch.9.0.2\lib\Sitecore.ContentSearch.dll</HintPath>
